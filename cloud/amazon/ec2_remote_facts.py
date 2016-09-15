@@ -127,6 +127,7 @@ def get_instance_info(instance):
                     'hypervisor': instance.hypervisor,
                     'region': instance.region.name,
                     'persistent': instance.persistent,
+                    'ip_address': instance.ip_address,
                     'private_ip_address': instance.private_ip_address,
                     'public_ip_address': instance.ip_address,
                     'state': instance._state.name,
